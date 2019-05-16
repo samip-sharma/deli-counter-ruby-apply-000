@@ -12,14 +12,9 @@ if array.length == 0
  end
 end
 
-def take_a_number(array,name) #"Welcome, Ada. You are number 1 in line."
-  array << name
- if array.length==1
-   puts "Welcome, #{array[0]}. You are number 1 in line."
- else
-   puts "Welcome, #{name}. You are number #{array.length} in line."
-end
-array
+def take_a_number(array)
+  puts"Welcome you are number #{array.length+1} in the line"
+ 
 end
 
 
